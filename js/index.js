@@ -20,6 +20,9 @@ huyinghuan.config(['$routeProvider',
         .when('/', {
             templateUrl: 'resume.html'
         })
+        .when('/contact',{
+            templateUrl: 'contact.html'
+        })
   }]);
 //配置 多国语言
 huyinghuan.config(function($translateProvider) {
@@ -35,4 +38,10 @@ huyinghuan.controller('navigationTopCtrl',['$scope', '$translate', function($sco
   };
   $scope.language = $translate('language');
   $scope.languages = [{key:"en_US",value:"English"},{key:"zh_CN",value:"中文"}];
-}])
+}]);
+
+huyinghuan.controller('navigationSideCtrl',['$scope','$location', function($scope,$location) {
+  $scope.isActive =function(viewLocation){
+    return viewLocation == $location.path();
+  }
+}]);
