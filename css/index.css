@@ -50,7 +50,14 @@ html,body {
     border-radius: 25px;
     width: 100%;
 }
-.image-connact{
+.contact-body{
+    background-image:url("../image/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow:hidden;
+    color:white;
+}
+.contact-image-connact{
 	width:100%;
 	height:300px;
 }

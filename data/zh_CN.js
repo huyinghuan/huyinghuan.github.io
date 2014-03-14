@@ -5,6 +5,7 @@ var zh_CN = {
 	birth:"1991-02",
 	motto:"Keep on moving",
 	indexHome:"首页",
+	aboutme:"关于我",
 	contactWithMe:"联系我",
 	ImOnGithub:"我在 Github",
 	ImOnSO:"我在 Stack Overflow",

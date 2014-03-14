@@ -5,6 +5,7 @@ var en_US = {
 	birth:"02/1991",
 	motto:"Keep on moving",
 	indexHome:"HOME",
+	aboutme:"ABOUT ME",
 	contactWithMe:"CONTACTS",
 	ImOnGithub:"I'm on Github",
 	ImOnSO:"I'm on Stack Overflow",
