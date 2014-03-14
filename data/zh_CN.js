@@ -9,6 +9,7 @@ var zh_CN = {
 	ImOnGithub:"我在 Github",
 	ImOnSO:"我在 Stack Overflow",
 	ImOnCSDN:"我在 CSDN",
+	other:"其他",
 	"contact_html_title":"如果你对我感谢兴趣或者有技术方面探讨的问题,可以用以下方式联系我:",
 	"test":"",
 	"contact_html_weixin":"微信",
@@ -16,5 +17,7 @@ var zh_CN = {
 	"contact_html_gmail":"谷歌邮箱",
 	"contact_html_gmail_desc":"谷歌邮箱是最好的联系方式.",
 	"contact_html_weixin_desc":"如果想更深一步交流，可以加微信。但是不保证经常在线.",
-	"contact_html_weibo_desc":"我经常活跃在微博，关注最新新闻和技术动态，如果方便可以私信我."
+	"contact_html_weibo_desc":"我经常活跃在微博，关注最新新闻和技术动态，如果方便可以私信我.",
+	"home_html_title":"你好，我是胡瀛寰",
+	"home_html_desc":"来自长沙的程序猿，想更多的了解我？"
 }
