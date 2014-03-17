@@ -11,8 +11,7 @@ var zh_CN = {
 	ImOnSO:"我在 Stack Overflow",
 	ImOnCSDN:"我在 CSDN",
 	other:"其他",
-	"contact_html_title":"如果你对我感谢兴趣或者有技术方面探讨的问题,可以用以下方式联系我:",
-	"test":"",
+	"contact_html_title":"如果你对我感兴趣或者有技术方面探讨的问题,可以用以下方式联系我:",
 	"contact_html_weixin":"微信",
 	"contact_html_weibo":"新浪微博",
 	"contact_html_gmail":"谷歌邮箱",
@@ -20,5 +19,11 @@ var zh_CN = {
 	"contact_html_weixin_desc":"如果想更深一步交流，可以加微信。但是不保证经常在线.",
 	"contact_html_weibo_desc":"我经常活跃在微博，关注最新新闻和技术动态，如果方便可以私信我.",
 	"home_html_title":"你好，我是胡瀛寰",
-	"home_html_desc":"来自长沙的程序猿，想更多的了解我？"
+	"home_html_desc":"来自长沙的程序猿，想更多的了解我？",
+	"aboutme_html_title":"关于我",
+	"aboutme_html_desc_1":"1. 热爱编程，追求前沿技术。极强的自我学习能力，热衷各种新技术的学习及实践。Linux的追求者，坚信Linux是最好的开发平台。受开源思想影响习惯分享个人学习成果和工作经验。",
+	"aboutme_html_desc_2":"2. 对java,javascript有一定程度上的认识，初步接触过Flex开发。在linux方面 能根据自己的开发需要 编写简单shell脚本提高工作效率。能在一定程度上不局限各种框架的使用，基本能做到面对新的框架通过阅读官方文档迅速入门并投入开发使用。",
+	"aboutme_html_desc_3":"3. 爱好读书。不局限于技术书籍，更喜欢看与本专业无关的书籍。读过如季羡林大师的《留得十年》，还有诸如《犹太人的智慧》，《国家破产》，《贫穷的本质》,《货币战争》等经济学有关书籍。",
+	"aboutme_html_desc_4":"4. 缺点：缺乏审美能力，很难设计出令人愉悦的界面;对于大多数技术停留在应用层面，缺乏深度的研究与探索。",
+	"aboutme_html_mySkills":"技术能力"
 }
