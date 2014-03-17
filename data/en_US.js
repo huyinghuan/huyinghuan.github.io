@@ -19,5 +19,11 @@ var en_US = {
 	"contact_html_weixin_desc":"If you want to make further communications with me,you can add me by WeiXin,but I'm not sure I am always online",
 	"contact_html_weibo_desc":"I often active in Weibo, focus on the latest news and technology trends, if it's convenient to you,send direct messages to me.",
 	"home_html_title":"HELLO,I'M Yinghuan.Hu",
-	"home_html_desc":"A noder from ChangSha. Want to know more about me?"
+	"home_html_desc":"A noder from ChangSha. Want to know more about me?",
+	"aboutme_html_title":"关于我",
+	"aboutme_html_desc_1":"1. 热爱编程，追求前沿技术。极强的自我学习能力，热衷各种新技术的学习及实践。Linux的追求者，坚信Linux是最好的开发平台。受开源思想影响习惯分享个人学习成果和工作经验。",
+	"aboutme_html_desc_2":"2. 对java,javascript有一定程度上的认识，初步接触过Flex开发。在linux方面 能根据自己的开发需要 编写简单shell脚本提高工作效率。能在一定程度上不局限各种框架的使用，基本能做到面对新的框架通过阅读官方文档迅速入门并投入开发使用。",
+	"aboutme_html_desc_3":"3. 爱好读书。不局限于技术书籍，更喜欢看与本专业无关的书籍。读过如季羡林大师的《留得十年》，还有诸如《犹太人的智慧》，《国家破产》，《贫穷的本质》,《货币战争》等经济学有关书籍。",
+	"aboutme_html_desc_4":"4. 缺点：缺乏审美能力，很难设计出令人愉悦的界面;对于大多数技术停留在应用层面，缺乏深度的研究与探索。",
+	"aboutme_html_mySkills":"技术能力"
 }
