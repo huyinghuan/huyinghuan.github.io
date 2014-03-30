@@ -28,5 +28,4 @@ var zh_CN = {
 	"aboutme_html_mySkills":"技术能力",
 	"skill_languages_title":"编程语言",
 	"skill_framework_title":"编程框架",
-	"skill_units":"月"
 }

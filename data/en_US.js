@@ -27,6 +27,5 @@ var en_US = {
 	"aboutme_html_desc_4":"4. 缺点：缺乏审美能力，很难设计出令人愉悦的界面;对于大多数技术停留在应用层面，缺乏深度的研究与探索。",
 	"aboutme_html_mySkills":"技术能力",
 	"skill_languages_title":"The programe languages",
-	"skill_framework_title":"The framework",
-	"skill_units":"month"
+	"skill_framework_title":"The framework"
 }
