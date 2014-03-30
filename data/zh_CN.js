@@ -28,4 +28,14 @@ var zh_CN = {
 	"aboutme_html_mySkills":"技术能力",
 	"skill_languages_title":"编程语言",
 	"skill_framework_title":"编程框架",
+	"skill_tools_title":"编程工具",
+	"skill_project_title":"项目经验",
+	"favorite_website":"网址分享",
+	"favorite_website_desc":"这些网站经常能够带给我帮助,包括技术难题的解决,新知识的学习等.希望对你也有帮助.",
+	"favorite_website_site_head":"网址",
+	"favorite_website_desc_head":"简介",
+	"stackoverflow_desc":"遇到非常难解决的问题,你通常可以在这里找到答案,就算无法找到答案也能像国外技术人员求助,这应该算的上程序猿毕必备网址之一",
+	"itebooksinfo_desc":"这里有非常多而且是免费的编程类电子书籍,当你研究一门技术而无从下手时也许你能在这里找到相关资料,给你帮助",
+	"github_desc":"github是程序猿的圣地,在这里有着数以万计的开源项目,不管是技术研究还是技术分享,它提供了一个非常好的平台,你能在这里学习很多前沿的技术,也能找到工作中你可能需要却无法完成的技术",
+	"codecademy_desc":"它是一个编程语言学习网站,致力于让全球个地区的人都能学习接触编程,这也许可以作为你消磨时间一个好去处,它提供了非常多的在线编程教程,学习与动手Coding相结合,是利用空闲时间了解更多编程语言的好工具"
 }

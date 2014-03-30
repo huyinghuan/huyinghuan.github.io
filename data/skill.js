@@ -12,7 +12,8 @@ Object.defineProperty(PersonalData,"skillsData_languages",{
 		{name:"flex",time:3},
 		{name:"python",time:1},
 		{name:"c",time:1},
-		{name:"shell",time:1}
+		{name:"shell",time:1},
+		{name:"mongodb",time:6}
 	]
 })
 
@@ -53,11 +54,12 @@ Object.defineProperty(PersonalData,"getSkillDataOfFramework",{
 
 Object.defineProperty(PersonalData,"favorite_website",{
 	value:[
-		{site:"stackoverflow.com"},
-		{site:"it-ebooks.info"},
-		{site:"www.csdn.net"},
-		{site:"github.com"},
-		{site:"www.oschina.net"}
+		{site:"http://stackoverflow.com",desc:"stackoverflow_desc"},
+		{site:"http://it-ebooks.info",desc:"itebooksinfo_desc"},
+		//{site:"http://www.csdn.net",desc:"csdn_desc"},
+		{site:"http://github.com",desc:"github_desc"},
+		//{site:"http://www.oschina.net",desc:"oschina_desc"}
+		{site:"http://www.codecademy.com/",desc:"codecademy_desc"}
 	]
 })
 

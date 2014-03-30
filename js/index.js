@@ -1,26 +1,6 @@
 var huyinghuan = angular.module("huyinghuan.io",
 	['ngRoute','pascalprecht.translate']);
-//自定义指令
-huyinghuan.directive('ioTopnavbar',function(){ //顶部导航栏
-        return {
-            restrict: 'E',
-            templateUrl: 'nav-top.html'
-        };
-    });
-//配置路由
-huyinghuan.config(['$routeProvider',
-  function($routeProvider) {
-    $routeProvider
-        .when('/', {
-            templateUrl: 'home.html'
-        })
-        .when('/about-me',{
-            templateUrl: 'about-me.html'
-        })
-        .when('/contact',{
-            templateUrl: 'contact.html'
-        })
-  }]);
+
 //配置 多国语言
 huyinghuan.config(function($translateProvider) {
   	$translateProvider.translations('en_US',en_US).translations('zh_CN', zh_CN);
@@ -45,3 +25,30 @@ huyinghuan.controller('navigationSideCtrl',['$scope','$location', function($scop
     return viewLocation == $location.path();
   }
 }]);
+
+huyinghuan.controller('aboutmeCtrl',['$scope',function($scope){
+    $scope.websites = PersonalData.getFavoriteWebsite()
+}])
+
+//自定义指令
+huyinghuan.directive('ioTopnavbar',function(){ //顶部导航栏
+        return {
+            restrict: 'E',
+            templateUrl: 'nav-top.html'
+        };
+    });
+//配置路由
+huyinghuan.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider
+        .when('/', {
+            templateUrl: 'home.html'
+        })
+        .when('/about-me',{
+            templateUrl: 'about-me.html',
+            controller:'aboutmeCtrl'
+        })
+        .when('/contact',{
+            templateUrl: 'contact.html'
+        })
+  }]);

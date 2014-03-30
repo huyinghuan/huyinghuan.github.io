@@ -16,10 +16,52 @@
 	</div>
 	<h2 class="text-left">{{'aboutme_html_mySkills' | translate}}</h2>
 
-	<h3>{{'skill_languages_title' | translate}}</h3>
-	<div class="well" id="skill_languages_title"></div>
-	<h3>{{'skill_framework_title' | translate}}</h3>
-	<div class="well" id="skill_framework_title"></div>
+
+	<div class="panel panel-info">
+		<div class="panel-heading">
+			<h3 class="panel-title">{{'skill_languages_title' | translate}}</h3>
+		</div>
+		<div class="panel-body" id="skill_languages_title">
+		</div>
+	</div>
+	
+	<div class="panel panel-info">
+		<div class="panel-heading">
+			<h3 class="panel-title">{{'skill_framework_title' | translate}}</h3>
+		</div>
+		<div class="panel-body" id="skill_framework_title">
+		</div>
+	</div>
+
+	<h3>{{'skill_tools_title' | translate}}</h3>
+	<div class="well" id="skill_tools_title">
+		开发工具使用情况待完善
+	</div>
+	<h3>{{'skill_project_title' | translate}}</h3>
+	<div class="well" id="skill_project_title">
+		项目经验时间轴待完善
+	</div>
+	<div class="panel panel-default">
+		<!-- Default panel contents -->
+		<div class="panel-heading">{{'favorite_website' | translate}}</div>
+		<div class="panel-body">
+			<p>{{'favorite_website_desc' | translate}}</p>
+		</div>
+		<table class="table">
+			<thead>
+				<tr>
+					<th class="col-md-2">{{'favorite_website_site_head' | translate}} </th>
+					<th>{{'favorite_website_desc_head' | translate}}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="site in websites">
+					<td><a ng-href="{{site.site}}">{{site.site}}</a></td>
+					<td>{{site.desc | translate}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 </div>
 <script>
 (function(){
