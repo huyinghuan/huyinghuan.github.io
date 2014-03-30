@@ -74,15 +74,15 @@
 			.text(function(d){
 				return d.name
 			});
-/*
+
 		chart.selectAll("line")
 			.data(x.ticks(10))
 			.enter().append("line")
 			.attr("x1", function(d){
-				return x(d.time) + "%"
+				return x(d) + "%";
 			})
 			.attr("x2", function(d){
-				return x(d.time) + "%"
+				return x(d) + "%";
 			})
 			.attr("y1", 0)
 			.attr("y2", barHeight)
@@ -93,7 +93,7 @@
 			.enter().append("text")
 			.attr("class", "rule")
 			.attr("x", function(d){
-				return x(d.time) + "%"
+				return x(d) + "%";
 			})
 			.attr("y", 0)
 			.attr("dy", -3)
@@ -104,7 +104,7 @@
 			.attr("y1", 0)
 			.attr("y2", barHeight)
 			.style("stroke", "#000");
-	*/
+	/**/
 	}
 
 	function drawFrameworkChart(){

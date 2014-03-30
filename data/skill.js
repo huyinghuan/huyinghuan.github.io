@@ -7,7 +7,7 @@ Object.defineProperty(PersonalData,"skillsData_languages",{
 	value:[
 		{name:"java",time:14},
 		{name:"javscript(client)",time:18},
-		{name:"javascipt(server)",time:12},
+		{name:"javascipt(node.js)",time:12},
 		{name:"python",time:1},
 		{name:"html",time:18},
 		{name:"flex",time:3}
