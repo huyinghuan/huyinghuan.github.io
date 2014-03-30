@@ -85,7 +85,7 @@ Object.defineProperty(PersonalData,"drawLanguagesChart",{
 			.attr("width", "100%")
 			.attr("height",barHeight+40)
 			.append("g")
-			.attr("transform", "translate(60,15)");//设置位移俩 可以在条形统计图上右键--审查元素。看看是实际效果
+			.attr("transform", "translate(65,15)");//设置位移俩 可以在条形统计图上右键--审查元素。看看是实际效果
 		var dataMax =  d3.max(data,function(d){return d[Xcoordinate]});
 		var x = d3.scale.linear()
 			.domain([0, dataMax])
