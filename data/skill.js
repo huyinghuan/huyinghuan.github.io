@@ -2,6 +2,8 @@ var PersonalData = function(){};
 
 /**
 语言使用
+name: 语言
+time: 使用时长 单位月
 */
 Object.defineProperty(PersonalData,"skillsData_languages",{
 	value:[
@@ -12,7 +14,7 @@ Object.defineProperty(PersonalData,"skillsData_languages",{
 		{name:"flex",time:3},
 		{name:"python",time:1},
 		{name:"c",time:1},
-		{name:"shell",time:1},
+		{name:"shell",time:3},
 		{name:"mongodb",time:6}
 	]
 })
@@ -25,7 +27,7 @@ Object.defineProperty(PersonalData,"getSkillDataOfLanguages",{
 
 /*
 *框架使用
-掌握情况：
+name:框架名称  level掌握情况,分为以下几等:
 1 ： 了解
 2 ： 熟悉
 3 ： 熟练
@@ -49,6 +51,27 @@ Object.defineProperty(PersonalData,"skillsData_framework",{
 Object.defineProperty(PersonalData,"getSkillDataOfFramework",{
 	value:function(){
 		return PersonalData.skillsData_framework;
+	}
+})
+
+/*
+*开发工具使用
+name:工具名称,level 使用情况,同上.
+*/
+Object.defineProperty(PersonalData,"skillsData_tools",{
+	value:[
+		{name:"git",level:3},
+		{name:"sublime",level:3},
+		{name:"vim",level:2},
+		{name:"eclipse",level:3},
+		{name:"nodepad++",level:3},
+		{name:"LibreOffice Draw",level:2}
+	]
+});
+
+Object.defineProperty(PersonalData,"getSkillDataOfTools",{
+	value:function(){
+		return PersonalData.skillsData_tools;
 	}
 })
 

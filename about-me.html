@@ -32,15 +32,20 @@
 		<div class="panel-body" id="skill_framework_title">
 		</div>
 	</div>
-
-	<h3>{{'skill_tools_title' | translate}}</h3>
-	<div class="well" id="skill_tools_title">
-		开发工具使用情况待完善
+	
+	<div class="panel panel-info">
+		<div class="panel-heading">
+			<h3 class="panel-title">{{'skill_tools_title' | translate}}</h3>
+		</div>
+		<div class="panel-body" id="skill_tools_title">
+		</div>
 	</div>
+
 	<h3>{{'skill_project_title' | translate}}</h3>
 	<div class="well" id="skill_project_title">
-		项目经验时间轴待完善
 	</div>
+
+
 	<div class="panel panel-default">
 		<!-- Default panel contents -->
 		<div class="panel-heading">{{'favorite_website' | translate}}</div>
@@ -62,6 +67,7 @@
 			</tbody>
 		</table>
 	</div>
+	
 </div>
 <script>
 (function(){
@@ -70,5 +76,9 @@
 
 	var skill_framework_seletor = "div#skill_framework_title";
 	PersonalData.drawFrameworkChart(PersonalData.getSkillDataOfFramework(),skill_framework_seletor);
+
+	var skill_tools_title = "div#skill_tools_title";
+	PersonalData.drawFrameworkChart(PersonalData.getSkillDataOfTools(),skill_tools_title);
+
 })()
 </script>
