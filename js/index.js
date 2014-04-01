@@ -27,7 +27,8 @@ huyinghuan.controller('navigationSideCtrl',['$scope','$location', function($scop
 }]);
 
 huyinghuan.controller('aboutmeCtrl',['$scope',function($scope){
-    $scope.websites = PersonalData.getFavoriteWebsite()
+    $scope.websites = PersonalData.getFavoriteWebsite();
+    $scope.projects = PersonalData.getSkillDataOfProject();
 }])
 
 //自定义指令
