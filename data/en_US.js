@@ -20,6 +20,7 @@ var en_US = {
 	"contact_html_weibo_desc":"I often active in Weibo, focus on the latest news and technology trends, if it's convenient to you,send direct messages to me.",
 	"home_html_title":"HELLO,I'M Yinghuan.Hu",
 	"home_html_desc":"A noder from ChangSha. Want to know more about me?",
+	"home_html_goal":"At present，I am looking for a job about nodejs",
 	"aboutme_html_title":"About me",
 	"aboutme_html_desc_1":"1. Love programming and pursuing cutting-edge technology.Have a strong self-learning ability, be wild about learning and practicing variety of new technologies.As a suitors of linux,  convinced that Linux is the best development platform.Affected by the open source mind, used to share the achievements of individual learning and work experience.",
 	"aboutme_html_desc_2":"2. Hava a certain degree of understanding for javascript(include nodejs) and java,contact with the Flex development preliminary.In terms of linux,i can programme some simple shell script on the basis of the requirement.Not limited to various of frameworks to some extent,face to new framework can learn quickly and put into use by reading official documents.",

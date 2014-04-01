@@ -20,6 +20,7 @@ var zh_CN = {
 	"contact_html_weibo_desc":"我经常活跃在微博，关注最新新闻和技术动态，如果方便可以私信我.",
 	"home_html_title":"你好，我是胡瀛寰",
 	"home_html_desc":"来自长沙的程序猿，想更多的了解我？",
+	"home_html_goal":"目前我在寻找一份有关nodejs的工作。",
 	"aboutme_html_title":"关于我",
 	"aboutme_html_desc_1":"1. 热爱编程，追求前沿技术。极强的自我学习能力，热衷各种新技术的学习及实践。Linux的追求者，坚信Linux是最好的开发平台。受开源思想影响乐于分享个人学习成果和工作经验。",
 	"aboutme_html_desc_2":"2. 对javascript(包括nodejs),Java,有一定程度上的认识，初步接触过Flex开发。在linux方面 能根据自己的开发需要 编写简单shell脚本提高工作效率。能在一定程度上不局限各种框架的使用，基本能做到面对新的框架通过阅读官方文档迅速入门并投入开发使用。",
