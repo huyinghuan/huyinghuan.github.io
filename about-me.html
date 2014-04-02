@@ -40,14 +40,56 @@
 	</div>
 
 	<h3>{{'skill_project_title' | translate}}</h3>
-	<div class="well" id="skill_project_title">
-		项目经验尚待完善.(预计4.2日能完成)
+	<div class="panel panel-default" ng-repeat='company in projects'>
+		<!-- Default panel contents -->
+		<div class="panel-heading">{{company.company | translate}}</div>
+		<div class="panel-body" ng-repeat='project in company.projects'>
+			<p>{{$index+1}}. {{project.name | translate}}</p>
+			<table class="table">
+			<thead>
+				<tr>
+					<th class="col-md-2">属性</th>
+					<th>描述</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>项目名称</td>
+					<td>{{project.name | translate}}</td>
+				</tr>
+				<tr>
+					<td>项目历时</td>
+					<td>{{project.time | translate}}</td>
+				</tr>
+				<tr>
+					<td>开发环境</td>
+					<td>{{project.env | translate}}</td>
+				</tr>
+				<tr>
+					<td>使用框架</td>
+					<td>{{project.framework | translate}}</td>
+				</tr>
+				<tr>
+					<td>成员</td>
+					<td>{{project.coder | translate}}</td>
+				</tr>
+				<tr>
+					<td>项目内容</td>
+					<td>{{project.desc | translate}}</td>
+				</tr>
+				<tr>
+					<td>项目职责</td>
+					<td>{{project.task | translate}}</td>
+				</tr>
+			</tbody>
+			</table>
+		</div>
 	</div>
 
-
+	<h3>{{'favorite_website' | translate}}</h3>
 	<div class="panel panel-default">
-		<!-- Default panel contents -->
-		<div class="panel-heading">{{'favorite_website' | translate}}</div>
+		<!-- Default panel contents 
+		<div class="panel-heading">{{'favorite_website' | translate}}</div>-->
 		<div class="panel-body">
 			<p>{{'favorite_website_desc' | translate}}</p>
 		</div>

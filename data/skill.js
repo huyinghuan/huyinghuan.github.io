@@ -75,6 +75,76 @@ Object.defineProperty(PersonalData,"getSkillDataOfTools",{
 	}
 })
 
+/*
+*项目经验
+*注意desc需要与语言配置部分相同
+*/
+Object.defineProperty(PersonalData,"skillsData_project",{
+	value:[
+		{
+			company:"company_1",
+			projects:[{
+				name:"project_1_title",
+				time:"project_1_time",
+				env:"project_1_env",
+				framework:"project_1_framework",
+				coder:"project_1_coder",
+				desc:"project_1_desc",
+				task:"project_1_task"
+				
+			},{
+				name:"project_2_title",
+				time:"project_2_time",
+				env:"project_2_env",
+				framework:"project_2_framework",
+				coder:"project_2_coder",
+				desc:"project_2_desc",
+				task:"project_2_task"
+				
+			}]
+		},{
+			company:"company_2",
+			projects:[{
+				name:"project_3_title",
+				time:"project_3_time",
+				env:"project_3_env",
+				framework:"project_3_framework",
+				coder:"project_3_coder",
+				desc:"project_3_desc",
+				task:"project_3_task"
+				
+			},{
+				name:"project_4_title",
+				time:"project_4_time",
+				env:"project_4_env",
+				framework:"project_4_framework",
+				coder:"project_4_coder",
+				desc:"project_4_desc",
+				task:"project_4_task"
+				
+			}]
+		},{
+			company:"company_3",
+			projects:[{
+				name:"project_5_title",
+				time:"project_5_time",
+				env:"project_5_env",
+				framework:"project_5_framework",
+				coder:"project_5_coder",
+				desc:"project_5_desc",
+				task:"project_5_task"
+			}]
+		}
+	]
+});
+
+Object.defineProperty(PersonalData,"getSkillDataOfProject",{
+	value:function(){
+		return PersonalData.skillsData_project
+	}
+})
+
+
 Object.defineProperty(PersonalData,"favorite_website",{
 	value:[
 		{site:"http://stackoverflow.com",desc:"stackoverflow_desc"},
