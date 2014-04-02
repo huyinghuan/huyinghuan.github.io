@@ -35,7 +35,7 @@ var en_US = {
 	"favorite_website_desc":"These sites are helpful to me,including the solutions to technical problems, learning new knowledge, etc. I hope it can help you.",
 	"favorite_website_site_head":"Web Site",
 	"favorite_website_desc_head":"Describe",
-	"stackoverflow_desc":"遇到非常难解决的问题,你通常可以在这里找到答案,就算无法找到答案也能像国外技术人员求助,这应该算的上程序猿毕必备网址之一",
+	"stackoverflow_desc":"When faced with a very difficult problem, you can usually find the answers here,even if can not find the answer, you can also seek help from foreign technical personnel，that should be counted one of the essential Website for programmers",
 	"itebooksinfo_desc":"There are a lot of electronic books about programming,and it's free.It may help you when you don't know how to begin a new technology.",
 	"github_desc":"Github is the programmers' Holy Land with thousands of open source projects，Whether technical research or technology sharing.It's a very good platform where you can learn a lot of cutting edge technology and find the technology which you need but can't complete in your work.",
 	"codecademy_desc":"It's a site for programming language learning,dedicated to making all of the people around the world can contact and learn programming which may be a good place for you to kill time. It offers a lot of online programming courses.Combined learning with coding is a good tool to use free time to learn more programming languages."
