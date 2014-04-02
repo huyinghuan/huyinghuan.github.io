@@ -70,7 +70,7 @@ var zh_CN = {
 	"project_4_coder":"项目经理,一个C/C++开发,2个js开发人员",
 	"project_4_desc":"基于Chrome的本地化插件,实现在chrome 扩展页面上 管理手机App(卸载,更新,安装),文件管理,任意页面右键 搜索app或者发送图片至手机.",
 	"project_4_task":" Chrome的扩展开发.采用Chrome的扩展数据存储以及相关事件处理,实现app信息展示,处理.在多个页面进行数据通信. 分析处理google play页面,通过扩展功能 提取,修改相关页面信息.",
-	"project_5_title":"通用单据办公系统",
+	"project_5_title":"基于nodejs的小型框架设计与开发",
 	"project_5_time":"2013.06-至今(主要利用空闲时间在做)",
 	"project_5_env":"ubuntu,nodejs,sublime",
 	"project_5_framework":"无",
