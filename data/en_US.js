@@ -2,6 +2,8 @@ var en_US = {
 	language:"English",
 	name:"huyinghuan",
 	person_info:"I graduated from Nanhua university'scomputer college of software engineering. 2 years work experience (internship)",
+	page_skill:"The page use d3.js,AngularJs and Bootstrap framework.The source code:",
+	page_url:"https://github.com/huyinghuan/huyinghuan.github.io",
 	age:"23",
 	birth:"02/1991",
 	motto:"Keep on moving",

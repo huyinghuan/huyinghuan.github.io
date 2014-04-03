@@ -2,6 +2,8 @@ var zh_CN = {
 	language:"中文",
 	name:"胡瀛寰",
 	person_info:"本人于2013年6月毕业于南华大学计算机学院软件工程专业。已有2年工作经验（加实习）",
+	page_skill:"本页面简单应用了d3.js,AngularJs和Bootstrap相关框架.源码在:",
+	page_url:"https://github.com/huyinghuan/huyinghuan.github.io",
 	age:"23",
 	birth:"1991-02",
 	motto:"Keep on moving",
